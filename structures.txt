@@ -1,0 +1,25 @@
+elon-musk-sentiment-stock/
+│
+├── data/                        # Raw and cleaned data
+│   └── musk_quote_tweets.csv    # Your cleaned input
+│
+├── notebooks/                   # EDA, sentiment exploration, modeling
+│   └── 01_sentiment_analysis.ipynb
+│   └── 02_price_alignment.ipynb
+│   └── 03_model_training.ipynb
+│
+├── src/                         # Python scripts (reusable functions)
+│   ├── clean_data.py
+│   ├── sentiment_analysis.py
+│   ├── align_price_data.py
+│   ├── feature_engineering.py
+│   ├── model.py
+│   └── utils.py
+│
+├── dashboard/                   # Streamlit app (optional for deployment)
+│   └── app.py
+│
+├── README.md                    # Project overview
+├── requirements.txt             # Python dependencies
+├── .gitignore                   # Ignore data, venv, etc.
+└── LICENSE                      # Optional, open-source license
